@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  justify-content: space-around; */
+  /* background: teal; */
+
+  position: relative;
+  font-family: cursive;
+}
+
+.github {
+  display: flex;
+  padding: 50;
+  color: red;
+}
+
+.linkedin {
+  padding: 50;
+  margin-left: 25;
+}
+
+.spiel {
+  margin: auto;
+  /* padding-top: 25; */
+}

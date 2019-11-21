@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Indie+Flower|Lexend+Tera&display=swap");
+
+body {
+  background-image: url("https://i.imgur.com/tzdy6Pk.jpg");
+  background-repeat: no-repeat;
+}
+
+.mainbox {
+  display: flex;
+  align-content: flex-end;
+  color: #f8f8ff;
+  min-width: 100vh;
+  min-height: 100vh;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: #f8f8ff;
+}
+
+.photobox {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.header-box {
+  margin-top: 14%;
+
+  margin-left: 9%;
+}
+
+.introduction-name {
+  display: flex;
+  justify-content: flex-start;
+  /* padding: 150; */
+  font-family: "Lexend Tera", sans-serif;
+}
+
+.introduction-type {
+  font-family: "Lexend Tera", sans-serif;
+}
+
+.description {
+  font-family: "Lexend Tera", sans-serif;
+  margin-top: 37%;
+  margin-right: 52%;
+}
+
+.connect {
+  align-self: center;
+  font-family: "Lexend Tera", sans-serif;
+  align-content: flex-start;
+}
