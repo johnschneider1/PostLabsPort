@@ -24,8 +24,7 @@ a {
 }
 
 .header-box {
-  margin-top: 14%;
-
+  margin-top: 7%;
   margin-left: 9%;
 }
 
@@ -33,21 +32,46 @@ a {
   display: flex;
   justify-content: flex-start;
   /* padding: 150; */
+  font-size: 3.5rem;
   font-family: "Lexend Tera", sans-serif;
+
+  color: #5f8a8b;
 }
 
 .introduction-type {
+  margin-top: 7%;
   font-family: "Lexend Tera", sans-serif;
 }
 
 .description {
+  display: flex;
   font-family: "Lexend Tera", sans-serif;
-  margin-top: 37%;
+  margin-top: 17%;
   margin-right: 52%;
 }
 
 .connect {
+  display: flex;
   align-self: center;
   font-family: "Lexend Tera", sans-serif;
-  align-content: flex-start;
+  margin-right: 5%;
+  padding-right: 25px;
+}
+
+.connect-text {
+  padding: 10px;
+  color: #5f8a8b;
+}
+
+.email-connect {
+  padding: 10px;
+}
+
+.git-connect {
+  padding: 10px;
+}
+
+.link-connect {
+  padding: 10px;
+  margin-right: 15px;
 }
