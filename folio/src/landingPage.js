@@ -1,18 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 import "./landingpage.css";
-import { Icon } from "semantic-ui-react";
+// import { Icon } from "semantic-ui-react";
+// import "semantic-ui-css/semantic.min.css";
 import LiveAction from "./threeAni";
-import ReactRain from "react-rain-animation";
-import "react-rain-animation/lib/style.css";
 
 const landingPage = () => {
+  //   const [text, setText] = useState("");
+
+  //   const onMouseOver = e => {
+  //     setText({ text: "Resume" });
+  //   };
+
+  //   const onMouseOut = e => {
+  //     setText({ text: "" });
+  //   };
+
   return (
     <body>
       <section>
         <div className="mainbox">
-          
           <div className="header-box">
             <div className="introduction-name">John Schneider</div>
             <div className="introduction-type">
@@ -22,7 +30,7 @@ const landingPage = () => {
           <div className="cube" width={200} height={200}>
             {/* <LiveAction className="cube-itself" /> */}
           </div>
-          <Icon name="mail" />
+          {/* <Icon className="icon1" name="mail" /> */}
 
           {/* <div className="description">
             I am a veteran of the options and futures trading world and a Full

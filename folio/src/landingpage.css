@@ -15,6 +15,7 @@ body {
 }
 a {
   text-decoration: none;
+  /* text-decoration: wavy underline #5f8a8b; */
   color: #f8f8ff;
 }
 
@@ -60,18 +61,63 @@ a {
 
 .connect-text {
   padding: 10px;
-  color: #5f8a8b;
+  color: #f8f8ff;
 }
 
 .email-connect {
   padding: 10px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.email-connect:hover {
+  opacity: 25;
 }
 
 .git-connect {
   padding: 10px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.git-connect:hover {
+  opacity: 25;
 }
 
 .link-connect {
   padding: 10px;
   margin-right: 15px;
+  opacity: 0.6;
+  transition: 0.3s;
 }
+
+.link-connect:hover {
+  opacity: 25;
+}
+
+.icon1 {
+  align-self: center;
+}
+
+/* 
+body { 
+    margin: 0; 
+    height: 100vh;
+}
+  
+canvas { 
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    font-family: 'Montserrat';
+    font-size: 7em;
+    text-transform: uppercase;
+    width: auto;
+    line-height: .8em;
+    border: 5px solid black;
+    padding: .2em;
+  } */
