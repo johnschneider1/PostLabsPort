@@ -24,7 +24,7 @@ const landingPage = () => {
           <div className="header-box">
             <div className="introduction-name">John Schneider</div>
             <div className="introduction-type">
-              Options Trader and Software Engineer
+              Full Stack Software Engineer and Options Trader
             </div>
           </div>
           <div className="cube" width={200} height={200}>
@@ -51,6 +51,12 @@ const landingPage = () => {
               <div className="link-connect">linkedin</div>
             </a>
           </div>
+          {/* <img
+            src="https://i.imgur.com/fSTDv1T.png"
+            alt="resume"
+            height={50}
+            width={50}
+          /> */}
           {/* <Footer /> */}
         </div>
       </section>
