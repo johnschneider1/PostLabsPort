@@ -5,6 +5,19 @@ import "./landingpage.css";
 // import { Icon } from "semantic-ui-react";
 // import "semantic-ui-css/semantic.min.css";
 import LiveAction from "./threeAni";
+import SplitText from "react-pose-text";
+
+const charPoses = {
+  hoverable: true,
+  init: { scale: 1 },
+  hover: {
+    scale: 1.01,
+    transition: {
+      type: "spring",
+      velocity: 12
+    }
+  }
+};
 
 const landingPage = () => {
   //   const [text, setText] = useState("");
@@ -22,14 +35,24 @@ const landingPage = () => {
       <section>
         <div className="mainbox">
           <div className="header-box">
-            <div className="introduction-name">John Schneider</div>
-            <div className="introduction-type">
+            {/* <SplitText charPoses={charPoses} className="introduction-name">
+              John Schneider
+            </SplitText> */}
+            <a href="https://github.com/johnschneider1">
+              <div className="introduction-name">John Schneider</div>
+            </a>
+            {/* <div className="introduction-type">
               Full Stack Software Engineer and Options Trader
-            </div>
+            </div> */}
+            <SplitText charPoses={charPoses}>
+              Full Stack Engineer & Derivatives Portfolio Manager
+            </SplitText>
           </div>
-          <div className="cube" width={200} height={200}>
+
+          <div className="cube" width={50} height={50}>
             {/* <LiveAction className="cube-itself" /> */}
           </div>
+
           {/* <Icon className="icon1" name="mail" /> */}
 
           {/* <div className="description">
@@ -40,7 +63,10 @@ const landingPage = () => {
           </div> */}
 
           <div className="connect">
-            <div className="connect-text">Find Me Here</div>
+            <SplitText charPoses={charPoses} className="findme">
+              Find Me Here
+            </SplitText>
+            {/* <div className="connect-text">Find Me Here</div> */}
             <a href="mailto:johnlawschneider@gmail.com">
               <div className="email-connect">Email</div>
             </a>
@@ -57,7 +83,7 @@ const landingPage = () => {
             height={50}
             width={50}
           /> */}
-          {/* <Footer /> */}
+          <Footer className="footer" />
         </div>
       </section>
     </body>

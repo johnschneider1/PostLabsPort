@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Indie+Flower|Lexend+Tera&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Sacramento|Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Calistoga&display=swap");
 
 body {
   background-image: url("https://i.imgur.com/tzdy6Pk.jpg");
@@ -31,15 +32,21 @@ a {
 }
 
 .introduction-name {
-  display: flex;
-  justify-content: flex-start;
-  /* padding: 150; */
+  /* display: flex;
+  justify-content: flex-start; */
+  color: #8d949e;
   font-size: 4rem;
-  /* font-family: "Lexend Tera", sans-serif; */
-  /* font-family: "Shadows Into Light", cursive; */
-  font-family: "Sacramento", cursive;
-  margin-left: 1.5em;
-  color: #5f8a8b;
+  font-family: "Calistoga", cursive;
+  opacity: 0.6;
+  /* font-family: "Sacramento", cursive; */
+  margin-left: 0.35em;
+  /* color: #5f8a8b; */
+}
+
+.introduction-name:hover {
+  /* opacity: 25;
+  transition: 0.3s; */
+  color: #bfb00a;
 }
 
 .introduction-type {
@@ -104,6 +111,32 @@ a {
   align-self: center;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.cube {
+  align-self: center;
+}
+
+.findme {
+  margin-top: 9px;
+}
+
+.findme:hover {
+  color: pink;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
 /* 
 body { 
     margin: 0; 
@@ -126,3 +159,6 @@ h1 {
     border: 5px solid black;
     padding: .2em;
   } */
+
+/* font-family: "Lexend Tera", sans-serif; */
+/* font-family: "Shadows Into Light", cursive; */
