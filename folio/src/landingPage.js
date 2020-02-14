@@ -38,7 +38,7 @@ const landingPage = () => {
             {/* <SplitText charPoses={charPoses} className="introduction-name">
               John Schneider
             </SplitText> */}
-            <a href="https://github.com/johnschneider1">
+            <a href="https://resume.creddle.io/resume/46ctrjf76ej">
               <div className="introduction-name">John Schneider</div>
             </a>
             {/* <div className="introduction-type">
@@ -76,10 +76,14 @@ const landingPage = () => {
             <a href="https://www.linkedin.com/in/john-schneider-b3049a7/">
               <div className="link-connect">linkedin</div>
             </a>
+            <a href="https://clientlight.johnlawschneider.now.sh/landing">
+              <div className="link-connect">MyWork</div>
+            </a>
           </div>
           {/* <img
-            src="https://i.imgur.com/fSTDv1T.png"
-            alt="resume"
+            // className="projects"
+            src="https://i.imgur.com/t0WggV2.png"
+            alt="project"
             height={50}
             width={50}
           /> */}
@@ -95,3 +99,4 @@ export default landingPage;
 // <Header as="h3" block>
 // My Favorite Equities <Icon name="favorite" color="teal" />
 // </Header>
+// src="https://i.imgur.com/fSTDv1T.png"

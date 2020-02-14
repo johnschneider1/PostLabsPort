@@ -112,9 +112,10 @@ a {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+  max-width: 150px;
+  height: 150px;
+  position: relative;
+  margin-top: 50px;
 }
 .cube {
   align-self: center;
