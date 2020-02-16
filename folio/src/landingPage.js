@@ -6,6 +6,7 @@ import "./landingpage.css";
 // import "semantic-ui-css/semantic.min.css";
 import LiveAction from "./threeAni";
 import SplitText from "react-pose-text";
+import { Link } from "react-router-dom";
 
 const charPoses = {
   hoverable: true,
@@ -76,9 +77,12 @@ const landingPage = () => {
             <a href="https://www.linkedin.com/in/john-schneider-b3049a7/">
               <div className="link-connect">linkedin</div>
             </a>
-            <a href="https://clientlight.johnlawschneider.now.sh/landing">
+            {/* <a href="https://clientlight.johnlawschneider.now.sh/landing">
               <div className="link-connect">MyWork</div>
-            </a>
+            </a> */}
+            <Link to={"/work"}>
+              <div className="link-connect">MyWork</div>
+            </Link>
           </div>
           {/* <img
             // className="projects"

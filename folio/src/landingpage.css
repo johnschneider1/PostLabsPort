@@ -34,7 +34,7 @@ a {
 .introduction-name {
   /* display: flex;
   justify-content: flex-start; */
-  color: #8d949e;
+  /* color: #8d949e; */
   font-size: 4rem;
   font-family: "Calistoga", cursive;
   opacity: 0.6;
@@ -46,7 +46,7 @@ a {
 .introduction-name:hover {
   /* opacity: 25;
   transition: 0.3s; */
-  color: #bfb00a;
+  /* color: #bfb00a; */
 }
 
 .introduction-type {
