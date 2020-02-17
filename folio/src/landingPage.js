@@ -51,7 +51,7 @@ const landingPage = () => {
               Full Stack Software Engineer and Options Trader
             </div> */}
             <SplitText charPoses={charPoses}>
-              Full Stack Engineer & Derivatives Portfolio Manager
+              Full Stack Engineer && Derivatives Portfolio Manager
             </SplitText>
           </div>
 

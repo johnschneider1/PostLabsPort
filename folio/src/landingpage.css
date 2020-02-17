@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Indie+Flower|Lexend+Tera&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Sacramento|Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
 
 body {
   background-image: url("https://i.imgur.com/tzdy6Pk.jpg");
@@ -36,7 +37,8 @@ a {
   justify-content: flex-start; */
   /* color: #8d949e; */
   font-size: 4rem;
-  font-family: "Calistoga", cursive;
+  /* font-family: "Calistoga", cursive; */
+  font-family: "Dancing Script", cursive;
   opacity: 0.6;
   /* font-family: "Sacramento", cursive; */
   margin-left: 0.35em;
