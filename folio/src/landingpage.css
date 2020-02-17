@@ -44,8 +44,8 @@ a {
 }
 
 .introduction-name:hover {
-  /* opacity: 25;
-  transition: 0.3s; */
+  opacity: 25;
+  transition: 0.3s;
   /* color: #bfb00a; */
 }
 

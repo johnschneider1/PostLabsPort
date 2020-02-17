@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 import "./landingpage.css";
@@ -21,15 +21,15 @@ const charPoses = {
 };
 
 const landingPage = () => {
-  //   const [text, setText] = useState("");
+  // const [text, setText] = useState("John Schneider");
 
-  //   const onMouseOver = e => {
-  //     setText({ text: "Resume" });
-  //   };
+  // const onMouseOver = e => {
+  //   setText({ text: "Resume" });
+  // };
 
-  //   const onMouseOut = e => {
-  //     setText({ text: "" });
-  //   };
+  // const onMouseOut = e => {
+  //   setText({ text: "" });
+  // };
 
   return (
     <body>
@@ -39,9 +39,14 @@ const landingPage = () => {
             {/* <SplitText charPoses={charPoses} className="introduction-name">
               John Schneider
             </SplitText> */}
-            <a href="https://resume.creddle.io/resume/46ctrjf76ej">
+            {/* <a href="https://resume.creddle.io/resume/46ctrjf76ej">
               <div className="introduction-name">John Schneider</div>
-            </a>
+            </a> */}
+            <div className="introduction-name">John Schneider</div>
+            {/* <SplitText className="introduction-name" charPoses={charPoses}>
+              John Schneider
+            </SplitText> */}
+
             {/* <div className="introduction-type">
               Full Stack Software Engineer and Options Trader
             </div> */}
@@ -76,6 +81,9 @@ const landingPage = () => {
             </a>
             <a href="https://www.linkedin.com/in/john-schneider-b3049a7/">
               <div className="link-connect">linkedin</div>
+            </a>
+            <a href="https://resume.creddle.io/resume/46ctrjf76ej">
+              <div className="link-connect">Resume</div>
             </a>
             {/* <a href="https://clientlight.johnlawschneider.now.sh/landing">
               <div className="link-connect">MyWork</div>

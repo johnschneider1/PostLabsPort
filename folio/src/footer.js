@@ -18,8 +18,8 @@ const footer = () => {
   return (
     <div className="footer">
       <SplitText charPoses={charPoses}>
-        Skills: Javascript, html, css, node.js, aws, python, react.js, react
-        native, SQL, PG
+        Skills: javascript, python, html, css, node.js, react.js, react native,
+        sqlite, postgresql, aws
       </SplitText>
       {/* <div className="skills">
         Skills: Javascript, html, css, node.js, aws, python, react.js, react
