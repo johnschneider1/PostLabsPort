@@ -6,7 +6,9 @@ import Work from "./Work";
 const Routes = () => {
   return (
     <div>
+      <Route exact path="/" render={() => <Redirect to="/landing" />} />
       <Route path="/landing" component={landingPage} />
+      {/* <Route exact path="/landing" component={landingPage} /> */}
       <Route path="/work" component={Work} />
     </div>
   );
