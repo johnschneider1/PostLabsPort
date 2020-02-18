@@ -4,19 +4,35 @@
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
 
 body {
+  display: flex;
+  justify-content: center;
   background-image: url("https://i.imgur.com/tzdy6Pk.jpg");
   background-repeat: no-repeat;
+  /* width: 60%;
+  height: auto; */
+  /* border: 1px solid green; */
   width: 100%;
   height: 100%;
 }
+/* @media (max-width: 500px) {
+  body {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 75%;
+  }
+} */
 
 .mainbox {
-  display: flex;
-  align-content: flex-end;
+  /* display: flex; */
+  align-content: center;
   color: #f8f8ff;
-  min-width: 100vh;
+  /* min-width: 100vh;
   min-height: 100vh;
-  position: relative;
+  position: relative; */
+  height: 250px;
+  margin-top: 50px;
+  /* border: 1px solid red; */
 }
 a {
   text-decoration: none;
@@ -24,33 +40,23 @@ a {
   color: #f8f8ff;
 }
 
-.photobox {
+/* .photobox {
   max-height: 100%;
   max-width: 100%;
-}
-
-.header-box {
-  margin-top: 7%;
-  margin-left: 9%;
-}
+} */
 
 .introduction-name {
-  /* display: flex;
-  justify-content: flex-start; */
-  /* color: #8d949e; */
-  font-size: 4rem;
-  /* font-family: "Calistoga", cursive; */
+  display: flex;
+  justify-content: center;
+  font-size: 8rem;
   font-family: "Dancing Script", cursive;
   opacity: 0.6;
-  /* font-family: "Sacramento", cursive; */
-  margin-left: 0.35em;
-  /* color: #5f8a8b; */
 }
 
 .introduction-name:hover {
   opacity: 25;
   transition: 0.3s;
-  /* color: #bfb00a; */
+  color: ;
 }
 
 .introduction-type {
@@ -61,23 +67,27 @@ a {
 .description {
   display: flex;
   font-family: "Lexend Tera", sans-serif;
-  margin-top: 17%;
-  margin-right: 52%;
 }
 
 .connect {
   display: flex;
-  align-self: center;
+  justify-content: center;
+  /* position: absolute; */
   font-family: "Lexend Tera", sans-serif;
-  margin-right: 5%;
-  padding-right: 25px;
+  /* border: 1px solid yellow; */
+  margin: auto;
+  padding: 25px;
+  /* margin-right: 5%;
+  padding-right: 25px; */
 }
 
 .connect-text {
-  display: flex;
+  /* display: flex;
   align-content: flex-start;
+  flex-direction: row; */
   padding: 10px;
   color: #f8f8ff;
+  margin-bottom: 5em;
 }
 
 .email-connect {
@@ -111,31 +121,33 @@ a {
   opacity: 25;
 }
 
-.icon1 {
+/* .icon1 {
   align-self: center;
-}
+} */
 
-img {
+/* img {
   max-width: 150px;
   height: 150px;
   position: relative;
   margin-top: 50px;
-}
-.cube {
+} */
+/* .cube {
   align-self: center;
-}
+} */
 
 .findme {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
   margin-top: 9px;
 }
 
-.findme:hover {
+/* .findme:hover {
   color: pink;
-}
+} */
 
 .footer {
-  display: flex;
-  justify-content: center;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -167,3 +179,29 @@ h1 {
 
 /* font-family: "Lexend Tera", sans-serif; */
 /* font-family: "Shadows Into Light", cursive; */
+
+/* .threeD {
+  color: darkgrey;
+  white-space: nowrap;
+  position: absolute;
+  position: relative;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+}
+
+.threeD:hover {
+  transition: 0.3s;
+  transform: scale(1.1) translate(-50%, -50%);
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+    1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+    1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+} */

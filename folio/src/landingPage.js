@@ -32,47 +32,32 @@ const landingPage = () => {
   // };
 
   return (
-    <body>
+    <div className="solt">
       <section>
         <div className="mainbox">
-          <div className="header-box">
-            {/* <SplitText charPoses={charPoses} className="introduction-name">
+          {/* <SplitText charPoses={charPoses} className="introduction-name">
               John Schneider
             </SplitText> */}
-            {/* <a href="https://resume.creddle.io/resume/46ctrjf76ej">
+          {/* <a href="https://resume.creddle.io/resume/46ctrjf76ej">
               <div className="introduction-name">John Schneider</div>
             </a> */}
-            <div className="introduction-name">John Schneider</div>
-            {/* <SplitText className="introduction-name" charPoses={charPoses}>
-              John Schneider
+          <div className="introduction-name">John Schneider</div>
+
+          {/* <SplitText charPoses={charPoses}>
+              Full Stack Engineer && Derivatives Portfolio Manager
             </SplitText> */}
 
-            {/* <div className="introduction-type">
-              Full Stack Software Engineer and Options Trader
-            </div> */}
-            <SplitText charPoses={charPoses}>
-              Full Stack Engineer && Derivatives Portfolio Manager
+          {/* <div className="findme">
+            <SplitText charPoses={charPoses} className="findme">
+              Find Me Here:
             </SplitText>
-          </div>
-
-          <div className="cube" width={50} height={50}>
-            {/* <LiveAction className="cube-itself" /> */}
-          </div>
-
-          {/* <Icon className="icon1" name="mail" /> */}
-
-          {/* <div className="description">
-            I am a veteran of the options and futures trading world and a Full
-            Stack EngineerMy unique skill set alllows me to approach problem
-            solving from all possiple angles. React, React Native, Node.js,
-            Python, HTML, CSS, JavaScript, SQL....
           </div> */}
 
           <div className="connect">
             <SplitText charPoses={charPoses} className="findme">
-              Find Me Here
+              Connect:
             </SplitText>
-            {/* <div className="connect-text">Find Me Here</div> */}
+            {/* <div className="connect-text">Connect:</div> */}
             <a href="mailto:johnlawschneider@gmail.com">
               <div className="email-connect">Email</div>
             </a>
@@ -85,24 +70,17 @@ const landingPage = () => {
             <a href="https://resume.creddle.io/resume/46ctrjf76ej">
               <div className="link-connect">Resume</div>
             </a>
-            {/* <a href="https://clientlight.johnlawschneider.now.sh/landing">
-              <div className="link-connect">MyWork</div>
-            </a> */}
+
             <Link to={"/work"}>
-              <div className="link-connect">MyWork</div>
+              <div className="link-connect">About</div>
             </Link>
+            {/* <LiveAction /> */}
           </div>
-          {/* <img
-            // className="projects"
-            src="https://i.imgur.com/t0WggV2.png"
-            alt="project"
-            height={50}
-            width={50}
-          /> */}
+
           <Footer className="footer" />
         </div>
       </section>
-    </body>
+    </div>
   );
 };
 

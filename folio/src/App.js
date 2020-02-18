@@ -8,23 +8,21 @@ import { Link, NavLink } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <Routes />
-        {/* <landingPage /> */}
-        {/* <h1>hi</h1> */}
-        {/* <LiveAction /> */}
-        <Link to="/landing">
-          {/* <div className="deconstructed">
+    <div className="App">
+      <Routes />
+      {/* <landingPage /> */}
+      {/* <h1>hi</h1> */}
+      {/* <LiveAction /> */}
+      <Link to="/landing">
+        {/* <div className="deconstructed">
           ENTER
           <div>ENTER</div>
           <div>ENTER</div>
           <div>ENTER</div>
           <div>ENTER</div>
         </div> */}
-        </Link>
-      </div>
-    </>
+      </Link>
+    </div>
   );
 }
 
