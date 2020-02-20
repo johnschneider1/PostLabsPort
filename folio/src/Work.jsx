@@ -18,13 +18,13 @@ const Work = () => {
           build ourselves.
         </p>
       </div>
-      <div className="imgdiv">
+      {/* <div className="imgdiv">
         <img
           className="prjimage"
           src="https://i.imgur.com/t0WggV2.png"
           alt="projects"
         />
-      </div>
+      </div> */}
       <Link to={"/landing"}>
         <div className="linky">Back to Main Page</div>
       </Link>

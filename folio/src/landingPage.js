@@ -7,6 +7,7 @@ import "./landingpage.css";
 import LiveAction from "./threeAni";
 import SplitText from "react-pose-text";
 import { Link } from "react-router-dom";
+import Glob from "./glob";
 
 const charPoses = {
   hoverable: true,
@@ -35,13 +36,14 @@ const landingPage = () => {
     <div className="solt">
       <section>
         <div className="mainbox">
-          {/* <SplitText charPoses={charPoses} className="introduction-name">
-              John Schneider
-            </SplitText> */}
+          <SplitText charPoses={charPoses} className="introduction-name">
+            John _Schneider
+          </SplitText>
+
           {/* <a href="https://resume.creddle.io/resume/46ctrjf76ej">
               <div className="introduction-name">John Schneider</div>
             </a> */}
-          <div className="introduction-name">John Schneider</div>
+          {/* <div className="introduction-name">John Schneider</div> */}
 
           {/* <SplitText charPoses={charPoses}>
               Full Stack Engineer && Derivatives Portfolio Manager
@@ -75,6 +77,7 @@ const landingPage = () => {
               <div className="link-connect">About</div>
             </Link>
             {/* <LiveAction /> */}
+            {/* <Glob /> */}
           </div>
 
           <Footer className="footer" />
