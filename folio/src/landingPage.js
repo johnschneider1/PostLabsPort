@@ -36,14 +36,14 @@ const landingPage = () => {
     <div className="solt">
       <section>
         <div className="mainbox">
-          <SplitText charPoses={charPoses} className="introduction-name">
+          {/* <SplitText charPoses={charPoses} className="introduction-name">
             John _Schneider
-          </SplitText>
+          </SplitText> */}
 
           {/* <a href="https://resume.creddle.io/resume/46ctrjf76ej">
               <div className="introduction-name">John Schneider</div>
             </a> */}
-          {/* <div className="introduction-name">John Schneider</div> */}
+          <div className="introduction-name">John Schneider</div>
 
           {/* <SplitText charPoses={charPoses}>
               Full Stack Engineer && Derivatives Portfolio Manager

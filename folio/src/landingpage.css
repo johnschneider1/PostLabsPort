@@ -121,6 +121,40 @@ a {
   opacity: 25;
 }
 
+@media (max-width: 500px) {
+  body {
+    display: flex;
+    flex-flow: column;
+  }
+  .mainbox {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+  }
+  .introduction-name {
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 75px;
+    font-size: 70px;
+  }
+  .footer {
+    justify-content: center;
+    position: relative;
+    bottom: 5px;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 11px;
+    /* display: none; */
+  }
+  .connect {
+    display: flex;
+    flex-flow: column;
+  }
+  .findme {
+    display: none;
+  }
+}
+
 /* .icon1 {
   align-self: center;
 } */
@@ -149,7 +183,7 @@ a {
 
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: 50px;
   width: 100%;
   height: 2.5rem;
 }
