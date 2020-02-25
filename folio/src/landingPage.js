@@ -69,12 +69,12 @@ const landingPage = () => {
             <a href="https://www.linkedin.com/in/john-schneider-b3049a7/">
               <div className="link-connect">linkedin</div>
             </a>
-            <a href="https://resume.creddle.io/resume/46ctrjf76ej">
+            {/* <a href="https://resume.creddle.io/resume/46ctrjf76ej">
               <div className="link-connect">Resume</div>
-            </a>
+            </a> */}
 
             <Link to={"/work"}>
-              <div className="link-connect">About</div>
+              <div className="link-connect">MyProjects</div>
             </Link>
             {/* <LiveAction /> */}
             {/* <Glob /> */}
