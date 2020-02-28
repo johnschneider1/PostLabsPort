@@ -8,6 +8,7 @@ import LiveAction from "./threeAni";
 import SplitText from "react-pose-text";
 import { Link } from "react-router-dom";
 import Glob from "./glob";
+import Gears from "./gears";
 
 const charPoses = {
   hoverable: true,
@@ -72,6 +73,7 @@ const landingPage = () => {
             {/* <a href="https://resume.creddle.io/resume/46ctrjf76ej">
               <div className="link-connect">Resume</div>
             </a> */}
+            <Gears />
 
             <Link to={"/work"}>
               <div className="link-connect">MyProjects</div>

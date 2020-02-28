@@ -26,7 +26,7 @@ const Work = () => {
         />
       </div> */}
       <Link to={"/landing"}>
-        <div className="gohome">Back to Main Page</div>
+        <button className="gohome">Back to Main Page</button>
       </Link>
       <div className="bottombox">
         {/* <h3 className="typewriter">
@@ -40,12 +40,18 @@ const Work = () => {
             <br /> BrightLight is a React and Node application, <br />
             with login process in hashed with bcrypt and secured with jwt.
           </p>
-          <a href="https://github.com/johnschneider1/BrightLight">
+          <button
+            className="brtbtn"
+            href="https://github.com/johnschneider1/BrightLight"
+          >
             <div className="linky">Code</div>
-          </a>
-          <a href="https://clientlight.johnlawschneider.now.sh/landing">
+          </button>
+          <button
+            className="brsbtn"
+            href="https://clientlight.johnlawschneider.now.sh/landing"
+          >
             <div className="linky">Deployed Site</div>
-          </a>
+          </button>
         </div>
         <div className="mudcard">
           <p>
@@ -56,12 +62,18 @@ const Work = () => {
             <br /> It's a react frontend and Django and Python backend. <br />{" "}
             It includes a chat function built with "Pusher".
           </p>
-          <a href="https://github.com/Team-Chaotic-Lamba/Frontend">
+          <button
+            className="codebtn"
+            href="https://github.com/Team-Chaotic-Lamba/Frontend"
+          >
             <div className="linky">Code</div>
-          </a>
-          <a href="https://client.johnlawschneider.now.sh/game">
+          </button>
+          <button
+            className="dpsbtn"
+            href="https://client.johnlawschneider.now.sh/game"
+          >
             <div className="linky">Deployed site</div>
-          </a>
+          </button>
         </div>
       </div>
     </div>
