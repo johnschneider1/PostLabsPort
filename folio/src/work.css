@@ -37,12 +37,12 @@
 
 .brightcard {
   padding: 5px;
-  /* margin-right: 50px; */
-  /* border: 5px solid grey; */
+  margin: 20px;
   display: flex;
   flex-flow: column;
   justify-content: space-evenly;
-  /* justify-content: center; */
+  align-content: center;
+  border: 2px gray;
   border-radius: 30px;
   text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px gray;
 }
@@ -52,12 +52,12 @@ p {
 }
 
 .mudcard {
-  /* margin-left: 50px; */
+  margin: 20px;
   padding: 5px;
-  /* border: 5px solid grey; */
   display: flex;
   flex-flow: column;
   justify-content: space-evenly;
+  border: 2px gray;
   border-radius: 30px;
   text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px gray;
 }
@@ -81,33 +81,84 @@ a {
 } */
 .gohome {
   opacity: 25;
-  color: dodgerblue;
+  /* color: dodgerblue; */
   width: 150px;
   padding: 10px;
+  margin: 5px;
+  border-radius: 33px;
+  box-shadow: inset 0 0 10px #000000;
+  font-weight: bold;
+}
+.gohome:hover {
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
 }
 .brtbtn {
   width: 150px;
   padding: 10px;
+  margin: 5px;
+  /* display: flex; */
+  align-self: center;
+  border-radius: 33px;
+  box-shadow: inset 0 0 10px #000000;
+  font-weight: bold;
+}
+
+.brtbtn:hover {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
 }
 
 .brsbtn {
   width: 150px;
   padding: 10px;
+  margin: 5px;
+  align-self: center;
+  border-radius: 33px;
+  box-shadow: inset 0 0 10px #000000;
+  font-weight: bold;
+}
+.brsbtn:hover {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
 }
 .codebtn {
   width: 150px;
   padding: 10px;
+  margin: 5px;
+  align-self: center;
+  border-radius: 33px;
+  box-shadow: inset 0 0 10px #000000;
+  font-weight: bold;
+}
+.codebtn:hover {
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .dpsbtn {
   width: 150px;
   padding: 10px;
+  margin: 5px;
+  align-self: center;
+  border-radius: 33px;
+  box-shadow: inset 0 0 10px #000000;
+  font-weight: bold;
+}
+.dpsbtn:hover {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
 }
 
-.linky {
+/* .linky {
   opacity: 25;
   color: dodgerblue;
-}
+} */
 /* .imgdiv {
   padding: 10px;
   display: flex;

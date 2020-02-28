@@ -40,9 +40,16 @@ a {
   color: #f8f8ff;
 }
 
-/* .photobox {
-  max-height: 100%;
-  max-width: 100%;
+.spinbox {
+  margin-top: 45px;
+  align-content: center;
+  border: 1px solid red;
+}
+
+/* .spinning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 } */
 
 .introduction-name {
@@ -140,7 +147,7 @@ a {
   .footer {
     justify-content: center;
     position: relative;
-    bottom: 5px;
+    bottom: 15px;
     width: 100%;
     height: 2.5rem;
     font-size: 11px;
