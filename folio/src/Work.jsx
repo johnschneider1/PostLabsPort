@@ -45,7 +45,7 @@ const Work = () => {
           <p>
             Python is a language that I instantly enjoyed and saw the
             possibilites of unique creation with. MUD is a multi user dungeon
-            built with a team of programmers at Lambda. It's a react frontend
+            built with a team of programmers at Lambda. It's a React frontend
             and Django and Python backend. It includes a chat function built
             with "Pusher".
           </p>
