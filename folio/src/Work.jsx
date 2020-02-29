@@ -25,10 +25,10 @@ const Work = () => {
       <div className="bottombox">
         <div className="brightcard">
           <p>
-            I have always had a connection to the "markets" thus <br />
-            my first build outside of Lambda is equity quotes and charting.
-            <br /> BrightLight is a React and Node application, <br />
-            with login process in hashed with bcrypt and secured with jwt.
+            I have always had a connection to the "markets" thus my first build
+            outside of Lambda is an equity quoting and charting application.
+            BrightLight is a React Front-End and Node Back-End , with a login
+            process secured with JWT and Bcrypt.
           </p>
           <a href="https://github.com/johnschneider1/BrightLight">
             <button className="brtbtn">
@@ -44,11 +44,10 @@ const Work = () => {
         <div className="mudcard">
           <p>
             Python is a language that I instantly enjoyed and saw the
-            possibilites of unique creation with.
-            <br /> MUD is a multi user dungeon built with a team of programmers
-            at Lambda.
-            <br /> It's a react frontend and Django and Python backend. <br />{" "}
-            It includes a chat function built with "Pusher".
+            possibilites of unique creation with. MUD is a multi user dungeon
+            built with a team of programmers at Lambda. It's a react frontend
+            and Django and Python backend. It includes a chat function built
+            with "Pusher".
           </p>
           <a href="https://github.com/Team-Chaotic-Lamba/Frontend">
             <button className="codebtn">

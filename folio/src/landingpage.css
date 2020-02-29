@@ -156,6 +156,7 @@ a {
   .connect {
     display: flex;
     flex-flow: column;
+    align-items: center;
   }
   .findme {
     display: none;

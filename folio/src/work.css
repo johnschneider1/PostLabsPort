@@ -30,9 +30,7 @@
 .bottombox {
   position: absolute;
   bottom: 150px;
-
   display: flex;
-  justify-content: space-around;
 }
 
 .brightcard {
@@ -182,6 +180,7 @@ a {
     flex-flow: column;
     justify-content: center;
     margin-top: 5px;
+    margin-bottom: 15px;
   }
   .threeD {
     display: flex;
@@ -189,8 +188,7 @@ a {
   }
 
   .gohome {
-    padding: 5px;
-    /* margin-bottom: 10px; */
+    display: none;
   }
 
   .bottombox {
